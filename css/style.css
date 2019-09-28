@@ -259,6 +259,9 @@
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.75);
+    position: relative;
+    z-index: 10;
 
 }
 .advantages_blocks {
@@ -284,5 +287,235 @@
     margin-top: 18px;
 }
 .orange_block {
+    width: 100%;
+    min-height: 509px;
+    background-image: url(../assets/img/orange_back.png);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 140px;
+}
+.orange_cards {
+    display: flex;
+}
+.orange_block_h2 {
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-size: 37px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for "Lorem ipsu" */
+    letter-spacing: 0.37px;
+    margin: 40px 0px;
+}
+.orange_card_first {
+    width: 341px;
+    height: 233px;
+    position: relative;
+    background-color: #ec9e03;
+    color: #ffffff;
+    font-family: "Segoe UI Light","Segoe UI";
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 38px;
+    letter-spacing: 0.29px;
+    padding: 34px;
+}
+.plus {
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+}
+.orange_card_second{
+    width: 315px;
+    height: 232px;
+    background-image: url(../assets/img/man_monkey.png);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play_btn_2 {
+    width: 67px;
+    height: 67px;
+    background-color: #f5c506b2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orange_card_third {
+    width: 329px;
+    height: 233px;
+    background-color: #ec9e03;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 34px;
+    position: relative;
+}
+.twenty_two {
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 38px;
+    /* Text style for "22" */
+    letter-spacing: 0.25px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.date {
+    background-color: #ddb101;
+    width: 113px;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.num_date {
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 38px;
+    /* Text style for "25" */
+    letter-spacing: 0.51px;
+}
+.month {
+    color: #b26529;
+    font-family: "Segoe UI";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 38px;
+    text-transform: uppercase;
+    /* Text style for "A, PRIL" */
+    letter-spacing: 0.21px;
+}
+.block_with_lines {
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+}
+.long_line {
+    width: 896px;
+    height: 15px;
+    background-color: #ffffff7c;
+    border-radius: 4px;
+    position: relative;
+}
+.short_line {
+    width: 197px;
+    height: 15px;
+    background-color: #ec9e03;
+    border-radius: 4px;
+    position: absolute;
+    left: 35%;
+}
+.gray_block {
+    width: 100%;
+    min-height: 499px;
+    background-image: url(../assets/img/gray_back.png);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 140px;
+}
+.gray_block_in {
+    display: flex;
+    align-items: flex-end;
+}
+.gray_block_h2 {
+    color: #f5c506;
+    font-family: "PT Sans";
+    font-size: 43px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for "Lorem ipsu" */
+    letter-spacing: 0.43px;
+    margin-top: 50px;
+}
+.technics {
+    display: flex;
+    justify-content: space-between;
+    width: 542px;
+    align-items: baseline;
+    margin-top: 58px;
+    position: relative;
+}
+.margin_technics {
+    position: relative;
+    bottom: 40px;
+}
+.free_round {
+    width: 116px;
+    height: 116px;
+    background-color: #f5c506;
+    border-radius: 50%;
+    position: absolute;
+    top: -46px;
+    left: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.free_round_text {
+    color: #ffffff;
+    font-family: "PT Sans - Narrow Bold";
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for "I, ts 100%" */
+    letter-spacing: 0.51px;
+}
+.list_bottom_in {
+    list-style-image: url("../assets/img/circle_orange.png");
+    color: #a9a9a7;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: 400;
+    /* Text style for "Lorem ipsu" */
+    letter-spacing: 0.22px;
     
 }
+.list_bottom {
+    width: 379px;
+    height: 214px;
+    position: relative;
+    left: 107px;
+}
+.list_bottom_in li {
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.footer_logo {
+    background-color: #4c4c4c;
+    height: 64px;
+    box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.75);
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
+.footer_logo img {
+    margin-left: 140px;
+    margin-right: 9px;
+}
+.footer_text {
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.42);
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-size: 29px;
+    font-style: italic;
+    text-transform: uppercase;
+    /* Text style for "TheYalow" */
+    letter-spacing: 0.29px;
+}
+
