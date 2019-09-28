@@ -13,7 +13,6 @@
     background: url(../assets/img/Layer_20.png);
     background-repeat: no-repeat;
     background-size: auto;
-    min-height: 1136px;
 }
 .block_colum {
     display: flex;
@@ -251,4 +250,39 @@
 .h1 span {
     color: #f5c506;
     letter-spacing: 0.63px;
+}
+.advantages {
+    width: 100%;
+    min-height: 212px;
+    background-image: url(../assets/img/white_back.jpg);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+}
+.advantages_blocks {
+    width: 340px;
+    height: 213px;
+    border-left: 1px solid rgba(0, 0, 0, 0.13);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.advantages_blocks_right {
+    border-right: 1px solid rgba(0, 0, 0, 0.13);
+}
+.advantages_blocks_text {
+    color: #000000;
+    font-family: "Segoe UI";
+    font-size: 27px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.27px;
+    margin-top: 18px;
+}
+.orange_block {
+    
 }
