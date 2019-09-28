@@ -1,0 +1,178 @@
+@media (max-width: 660px) {
+    .header_top {
+        display: none;
+    }
+    .h1 {
+        display: none;
+    }
+    .mobile_header_top {
+        display: flex;
+        width: 100%;
+        height: 62px;
+        background-color: #f5c506;
+    }
+    .mobile_header_top ul {
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        width: 100%;
+    }
+    .mobile_header_top ul li {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px solid #d9af05;
+        position: relative;
+        right: 1px;
+        color: #9b7d08;
+        font-family: "Segoe WP";
+        font-size: 19px;
+        font-weight: 400;
+        text-transform: uppercase;
+        /* Text style for "A, bout Us" */
+        letter-spacing: 0.19px;
+    }
+    .mobile_logo {
+        width: 186px;
+        height: 62px;
+        
+        background-position: center center; 
+        background-repeat: no-repeat;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%);
+        background-image: url(../assets/img/bg_mobile_logo.png);
+    }
+    .mobile_logo_text {
+        text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.42);
+        color: #ffffff;
+        font-family: "Lucida Sans";
+        font-size: 19px;
+        font-style: italic;
+        text-transform: uppercase;
+        /* Text style for "TheYalow" */
+        letter-spacing: 0.41px;
+    }
+    .mobile_top_img_margin {
+        margin-right: 11px;
+    }
+    .mobile_top_img_margin_logo {
+        margin-right: 8px;
+    }
+    .list_bottom {
+        display: none;
+    }
+    .header_video {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    video {
+        width: 100vh;
+        height: 400px;
+    }
+    .play_btn {
+        bottom: 242px;
+        left: 364px;
+    }
+    .owl-next {
+        display: none !important;
+    }
+    .owl-prev {
+        display: none !important;
+    }
+    .play_btn_small {
+        left: 90px;
+    }
+    .sound {
+        left: 696px;
+    }
+    .timer {
+        left: 201px;
+    }
+    .advantages {
+        box-shadow:none;
+    }
+    .advantages_blocks {
+        border-left: none;
+    }
+    .orange_block_h2 {
+        display: none;
+    }
+    .orange_block_mobile_top {
+       display: flex;
+       justify-content: space-around; 
+    }
+    .orange_block {
+        display: none;
+    }
+    .orange_block_mobile {
+        display: block;
+    }
+    .orange_card_third {
+        margin-left: 0px;
+        background-color: #f5c507;
+    }
+    .twenty_two {
+        display: none;
+    }
+    .plus {
+        display: none;
+    }
+    .message_twitter {
+        width: 331px;
+        height: 233px;
+        background-color: #f5c507;
+    }
+    .orange_block_mobile_bottom{
+        display: flex;
+        margin-top: 10px;
+    }
+    .clouds_margin {
+        margin-top: 14px;
+        position: relative;
+    }
+    .twitter_input {
+        width: 270px;
+        height: 29px;
+        box-shadow: inset 3px 4px 5px rgba(0, 0, 0, 0.11);
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        background-color: #ffffff;
+        border-radius: 30px;
+        overflow: hidden;
+        position: relative;
+    }
+    .twitter_button {
+        width: 77px;
+        height: 49px;
+        background: #d2910e;
+        border: none;
+        right: 0px;
+        top: -11px;
+        position: absolute;
+        color: #ffffff;
+        font-family: "Arial MT";
+        font-size: 15px;
+        font-weight: 400;
+        /* Text style for "T, weet" */
+        letter-spacing: 0.15px;
+    }
+    .twitter_input_2 {
+        height: 100%;
+        width: 100%;
+        border: none;
+    }
+    .clouds_text {
+        width: 217px;
+        height: 28px;
+        color: #8f8e8e;
+        font-family: "Arial MT";
+        font-size: 13px;
+        font-weight: 400;
+        /* Text style for "Daily Mobi" */
+        letter-spacing: 0.13px;
+        position: absolute;
+        left: 30px;
+        top: 7px;
+    }
+}

@@ -193,6 +193,10 @@
     cursor: pointer;
     z-index: 999999;
 }
+video {
+    width: 549px;
+    height: 327px
+}
 .play_btn_img {
     width: 19px !important;
 }
@@ -518,4 +522,9 @@
     /* Text style for "TheYalow" */
     letter-spacing: 0.29px;
 }
-
+.mobile_header_top {
+    display: none;
+}
+.orange_block_mobile{
+    display: none;
+}
