@@ -94,7 +94,7 @@
         left: 207px;
         bottom: 214px;
     }
-    }
+
     .advantages {
         box-shadow:none;
     }
@@ -105,8 +105,8 @@
         display: none;
     }
     .orange_block_mobile_top {
-       display: flex;
-       justify-content: space-around; 
+    display: flex;
+    justify-content: space-around; 
     }
     .orange_block {
         display: none;
